@@ -1,0 +1,38 @@
+[
+    {
+        "course" : "database",
+        "img" : "ux-img.png",
+        "name" : "Upload Databases Mandatory 2 Report",
+        "deadline" : "24. november 2021",
+        "sent" : false
+    },
+    {
+        "course" : "user-experience",
+        "img" : "i-user-experience-icon.svg",
+        "name" : "Upload here your Information Architecture Sitemaps Exercise",
+        "deadline" : "11. november 2021",
+        "sent" : true
+    },
+    {
+        "course" : "user-experience",
+        "img" : "i-user-experience-icon.svg",
+        "name" : "Delivery jQuery Exercises - KEA IT Degrees",
+        "deadline" : "31. october 2021",
+        "sent" : false
+    },
+    {
+        "course" : "database",
+        "img" : "i-database-icon.svg",
+        "name" : "Upload Databases Mandatory 1 Report",
+        "deadline" : "28. october 2021",
+        "sent" : true
+    },
+    {
+        "course" : "web-development",
+        "img" : "i-web-dev-icon.svg",
+        "name" : "Traffic light with javascript",
+        "deadline" : "20. october 2021",
+        "sent" : true
+    }
+
+]

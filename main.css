@@ -1,7 +1,8 @@
 :root {
   --header-height: 5rem;
   --main-color: #4a5b8c;
-  --accent-color: #bfcdd9;
+  --accent-color: #e7ecf1;
+  --line-color: #ddd;
   --sidebar-bg-color: #f0d4bb42;
   --sidebar-li-bg-color: #f0d4bb7d;
   --sidebar-a-color: #8c4f2b;
@@ -12,6 +13,10 @@
 body {
   font-family: "Poppins", sans-serif;
   /* background: #fafafa; */
+}
+
+img {
+  width: 100%;
 }
 
 p {
@@ -50,7 +55,7 @@ header {
 .line {
   width: 100%;
   height: 1px;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px dashed var(--line-color);
   margin: 40px 0;
 }
 
@@ -95,9 +100,6 @@ header {
   display: flex;
   align-items: center;
   color: var(--sidebar-a-color);
-}
-#sidebar svg.icon-mr {
-  margin-right: 10px;
 }
 
 #sidebar svg.icon-mr path {
@@ -172,7 +174,11 @@ ul ul a {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-
+@media (max-width: 450px) {
+  #content {
+    padding: 20px;
+  }
+}
 @media (max-width: 768px) {
   #sidebar {
     margin-left: -250px;
@@ -189,4 +195,10 @@ ul ul a {
   #sidebarCollapse span {
     display: none;
   }
+}
+
+/* CLASSES */
+
+svg.icon-mr {
+  margin-right: 10px;
 }
