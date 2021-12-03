@@ -172,27 +172,22 @@
                         </div>
                     </div> -->
                     <div class="line"></div>
-                    <!-- <div id="articles" class="list-view">
-                    
-                    </div>
+                    <div class="row">
+                         <iframe class="mb-5 col-12 col-lg-8" src="" width="100%" height="500px">
+                         </iframe>
+                         <div id="articles" class="list-view col-12 col-lg-4">
+                             <h3>Assigments</h3>
+                             <div class="assignmentsList"></div>
+                             <div class="line"></div>
+                             <h3>Resources</h3>
+                             <div class="coursesList"></div>
+                         </div>
+                    </div>   
                     <template>
                         <article>
-                            <div class="img-wrapper">
-                                <img class="img" src="" alt="">
-                                <div>
-                                    <h5 class="name"></h5>
-                                    <p class="deadline mb-1"></p>
-                                    <div class="align-items-center d-flex">
-                                        <img class="status-icon mr-3" src="" alt="">
-                                        <p class="status m-0"></p>
-                                    </div>
-                                </div>
-                            </div>
+                            <h5 class="name"></h5>
                         </article>
-                    </template> -->
-                        
-                    <iframe class="mb-5" src="" width="100%" height="500px">
-                    </iframe>
+                    </template>
                 </main>   
         </div>
     </div>
@@ -206,25 +201,10 @@
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/sidebar.js"></script>
-    <!-- <script src="js/assignments.js"></script> -->
+    <script src="js/main.js"></script>
     <script>
-        const urlParams = new URLSearchParams(window.location.search);
-        const course = urlParams.get("course");
-        const pdfName = urlParams.get("name");
-        const api = urlParams.get("api");
-        document.querySelector("iframe").src = `pdf/${pdfName}`;
-
-        let endpoint;
-        api == "assignments" ? endpoint = "js/json/assignments.json" : null;
-
-        async function getJson(){
-            const res = await fetch(endpoint);
-            const data = await res.json();
-            const pdf_title = data.filter(e => e.pdf == pdfName)[0].name;
-            document.querySelector(".title").textContent = pdf_title;
-
-        }
-        getJson();
+        getAllEndpoints(["assignments", "resources"], getSidebarList); 
+        getPDF(new URLSearchParams(window.location.search));
     </script>
 </body>
 
