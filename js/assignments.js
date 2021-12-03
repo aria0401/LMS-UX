@@ -75,6 +75,11 @@ function displayContent(){
                 clone.querySelector(".status-icon").src = "img/i-not-sent.svg";
     
             }
+
+            clone.querySelector("article").addEventListener("click", ()=>{
+                console.log("this is clone");
+                location.href = `single-page.html?course=${elm.course}&name=${elm.pdf}&api=assignments`;
+            })
     
             contentWrapper.appendChild(clone); 
         }
