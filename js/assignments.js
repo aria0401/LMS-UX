@@ -9,9 +9,11 @@ document.querySelectorAll("#layout div").forEach(div =>{
         
         if(div.dataset.layout == "card"){
             document.querySelector("#articles").classList.add("card-view");
+            document.querySelector("#articles").classList.remove("list-view");
             document.querySelector("#dropdownMenuButton span").textContent = "Card";
         }else{
             document.querySelector("#articles").classList.remove("card-view");
+            document.querySelector("#articles").classList.add("list-view");
             document.querySelector("#dropdownMenuButton span").textContent = "List";
         }
     })
@@ -63,14 +65,14 @@ function displayContent(){
             clone.querySelector(".img").src = "img/"+ elm.img;
             clone.querySelector(".img").alt = `Image of ${elm.course} course`;
             clone.querySelector(".name").textContent = elm.name;
-            clone.querySelector(".deadline").textContent = elm.deadline;
+            clone.querySelector(".deadline").textContent = "Deadline: " + elm.deadline;
             if(elm.sent){
                 clone.querySelector(".status").textContent = "completed";  
-                clone.querySelector(".status-icon").src = "img/i-sent-icon.svg";
+                clone.querySelector(".status-icon").src = "img/i-sent.svg";
             }
             else{
                 clone.querySelector(".status").textContent = "pending";  
-                clone.querySelector(".status-icon").src = "img/i-not-sent-icon.svg";
+                clone.querySelector(".status-icon").src = "img/i-not-sent.svg";
     
             }
     

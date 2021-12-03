@@ -1,9 +1,23 @@
-#main-assignments article img {
-  width: 15%;
+/* GENERAL */
+
+.dropdown-item {
+  cursor: pointer;
+}
+
+#main-assignments .name {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+#main-assignments p {
+  font-size: 0.8rem;
+}
+
+#main-assignments article {
+  cursor: pointer;
 }
 
 /* LIST VIEW */
-
 #main-assignments .list-view {
   display: flex;
   flex-direction: column;
@@ -17,22 +31,48 @@
   padding: 10px;
 }
 
-/* #main-assignments .list-view .img {
-  display: none;
-} */
-
-#main-assignments .card-view {
+#main-assignments .list-view .img-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 3fr 6fr;
+}
+
+#main-assignments .list-view .img {
+  width: 75%;
+  margin-right: 10px;
+}
+
+#main-assignments .list-view .status-icon {
+  width: 6%;
+}
+
+/* CARD VIEW */
+#main-assignments .card-view {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
+  border: 1px solid var(--line-color);
 }
 
 #main-assignments .card-view article {
   display: flex;
   flex-direction: column;
+  padding: 15px 30px 20px;
+  border-bottom: 1px solid var(--line-color);
+}
+
+#main-assignments .card-view .img-wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+#main-assignments .card-view .img {
+  margin-bottom: 10px;
+}
+
+#main-assignments .card-view .status-icon {
+  width: 6%;
 }
 
 #main-assignments .btn-layout {
-  /* padding: 0.6rem; */
   display: flex;
   align-items: center;
 }
@@ -50,4 +90,52 @@
   color: var(--main-color);
   /* background-color: var(--sidebar-bg-color);
   color: var(--sidebar-a-color); */
+}
+
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+@media (min-width: 600px) {
+  #main-assignments .card-view {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #main-assignments .card-view article:nth-child(2n + 1) {
+    border-right: 1px solid var(--line-color);
+  }
+}
+
+@media (min-width: 1000px) {
+  #main-assignments .card-view {
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 25px;
+    gap: 25px;
+  }
+
+  #main-assignments .card-view article {
+    border: 1px solid var(--line-color);
+  }
+
+  #main-assignments .card-view .status-icon {
+    width: 10%;
+  }
+
+  #main-assignments .list-view .img-wrapper {
+    grid-template-columns: 1fr 6fr;
+  }
+
+  #main-assignments .list-view .status-icon {
+    width: 2%;
+  }
+
+  #main-assignments .list-view .img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #main-assignments .card-view {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
