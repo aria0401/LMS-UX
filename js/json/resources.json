@@ -1,11 +1,48 @@
 [
     {
-        "name" : "GDD1"
+        "course" : "database",
+        "img" : "f-database.png",
+        "pdf" : "DB_Mandatory_2_copy.pdf",
+        "name" : "RESOURCE Upload Databases Mandatory 2 Report",
+        "description" : "lorem ipsum",
+        "status" : true,
+        "endpoint" : "resources"
     },
     {
-        "name" : "GDD2"
+        "course" : "user-experience",
+        "img" : "f-ux.png",
+        "pdf" : "Sitemap_Exercise_copy.pdf",
+        "name" : "RESOURCE Upload here your Information Architecture Sitemaps Exercise",
+        "description" : "lorem ipsum",
+        "status" : false,
+        "endpoint" : "resources"
     },
     {
-        "name" : "GDD3"
+        "course" : "user-experience",
+        "img" : "f-ux.png",
+        "pdf" : "KEA_IT_Degrees_copy.pdf",
+        "name" : "RESOURCE Delivery jQuery Exercises - KEA IT Degrees",
+        "description" : "lorem ipsum",
+        "status" : true,
+        "endpoint" : "resources"
+    },
+    {
+        "course" : "database",
+        "img" : "f-database.png",
+        "pdf" : "DB_Mandatory_1_copy.pdf",
+        "name" : "RESOURCE Upload Databases Mandatory 1 Report",
+        "description" : "lorem ipsum",
+        "status" : false,
+        "endpoint" : "resources"
+    },
+    {
+        "course" : "web-development",
+        "img" : "f-web-dev.png",
+        "pdf" : "Traffic_light_with_js_copy.pdf",
+        "name" : "RESOURCE Traffic light with javascript",
+        "description" : "lorem ipsum",
+        "status" : true,
+        "endpoint" : "resources"
     }
+
 ]

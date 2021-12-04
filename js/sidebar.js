@@ -1,3 +1,5 @@
+
+//TOGGLE COLLAPSE SIDEBAR
 $(document).ready(function () {
     $("#sidebar").mCustomScrollbar({
         theme: "minimal"

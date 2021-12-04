@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main_list.css">
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
@@ -142,31 +143,67 @@
 
         <!-- Page Content  -->
         <div id="content">
-                <button type="button" id="sidebarCollapse" class="btnCollapse btn btn-dark d-inline-block ml-auto mb-4">
-                    <i class="fas fa-align-left"></i>     
-                </button>
-                <main>
-                    <h2>Resources</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-                    <div class="line"></div>
-        
-                    <h2>Lorem Ipsum Dolor</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-                    <div class="line"></div>
-        
-                    <h2>Lorem Ipsum Dolor</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-                    <div class="line"></div>
-        
-                    <h3>Lorem Ipsum Dolor</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                </main>   
-        </div>
+            <button type="button" id="sidebarCollapse" class="btnCollapse btn btn-dark d-inline-block ml-auto mb-4">
+                <i class="fas fa-align-left"></i>     
+            </button>
+            <main id="main-list">
+                <h2 class="mb-4">Assignments</h2>
+                <div class="d-flex">
+                    <div class="filter-wrapper mx-5 d-none d-lg-block">
+                        <button class="filter btn" data-filter="all">All</button>
+                        <button class="filter btn" data-filter="database">Database</button>
+                        <button class="filter btn" data-filter="user-experience">User Experience</button>
+                        <button class="filter btn" data-filter="web-development">Web Development</button>
+                    </div>
+                    <div class="dropdown mx-2 d-lg-none">
+                        <button class="btn-layout btn filter" data-filter="all" type="button" id="dropdownMenuButtonFilter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-down icon-mr" viewBox="0 0 16 16">
+                                <path d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293V2.5zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
+                            </svg>
+                            <span>Course name</span> 
+                        </button>
+                        <div id="filter-list"  class="dropdown-menu" aria-labelledby="dropdownMenuButtonFilter">
+                          <div class="dropdown-item filter" data-filter="all">All</div>
+                          <div class="dropdown-item filter" data-filter="database">Database</div>
+                          <div class="dropdown-item filter" data-filter="user-experience">User Experience</div>
+                          <div class="dropdown-item filter" data-filter="web-development">Web Development</div>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn btn-layout" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-grid-3x3-gap-fill icon-mr" viewBox="0 0 16 16">
+                                <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"></path>
+                            </svg>
+                            <span>List</span> 
+                        </button>
+                        <div id="layout" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <div class="dropdown-item" data-layout="list">List</div>
+                          <div class="dropdown-item" data-layout="card">Card</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+    
+                <div id="articles" class="list-view">
+                
+                </div>
+                <template>
+                    <article>
+                        <div class="img-wrapper">
+                            <img class="img" src="" alt="">
+                            <div>
+                                <h5 class="name"></h5>
+                                <p class="description mb-1"></p>
+                                <div class="align-items-center d-flex">
+                                    <img class="status-icon mr-3" src="" alt="">
+                                    <p class="status m-0"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </template>
+            </main>   
+    </div>
     </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
@@ -177,7 +214,12 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
     <script src="js/sidebar.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        loadContent("resources", displayMainList);
+    </script>
 </body>
 
 </html>

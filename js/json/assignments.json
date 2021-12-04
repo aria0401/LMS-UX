@@ -5,7 +5,8 @@
         "pdf" : "DB_Mandatory_2.pdf",
         "name" : "Upload Databases Mandatory 2 Report",
         "deadline" : "24. november 2021",
-        "sent" : false
+        "sent" : false,
+        "endpoint" : "assignments"
     },
     {
         "course" : "user-experience",
@@ -13,7 +14,8 @@
         "pdf" : "Sitemap_Exercise.pdf",
         "name" : "Upload here your Information Architecture Sitemaps Exercise",
         "deadline" : "11. november 2021",
-        "sent" : true
+        "sent" : true,
+        "endpoint" : "assignments"
     },
     {
         "course" : "user-experience",
@@ -21,7 +23,8 @@
         "pdf" : "KEA_IT_Degrees.pdf",
         "name" : "Delivery jQuery Exercises - KEA IT Degrees",
         "deadline" : "31. october 2021",
-        "sent" : false
+        "sent" : false,
+        "endpoint" : "assignments"
     },
     {
         "course" : "database",
@@ -29,7 +32,8 @@
         "pdf" : "DB_Mandatory_1.pdf",
         "name" : "Upload Databases Mandatory 1 Report",
         "deadline" : "28. october 2021",
-        "sent" : true
+        "sent" : true,
+        "endpoint" : "assignments"
     },
     {
         "course" : "web-development",
@@ -37,7 +41,8 @@
         "pdf" : "Traffic_light_with_js.pdf",
         "name" : "Traffic light with javascript",
         "deadline" : "20. october 2021",
-        "sent" : true
+        "sent" : true,
+        "endpoint" : "assignments"
     }
 
 ]
