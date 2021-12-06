@@ -70,7 +70,7 @@ function displayMainList() {
 
     const contentWrapper = document.querySelector("#articles");
     contentWrapper.innerHTML = "";
-    const template = document.querySelector("template");
+    const template = document.querySelector("#templateFour");
 
     dataArray.forEach((elm) => {
         if (filter == "all" || filter == elm.course) {
@@ -190,7 +190,7 @@ function getStudentPlan() {
 
     const planWrapper = document.querySelector(".plan-content");
     planWrapper.innerHTML = "";
-    const template = document.querySelector("template");
+    const template = document.querySelector("#templateThree");
 
     weekPlan.forEach((elm)  =>{
        

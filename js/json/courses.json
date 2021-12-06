@@ -1,0 +1,91 @@
+[
+	{
+		"course_id": "1",
+		"course_name": "Database",
+		"course_img": "i-database-icon.svg",
+		"course_tittle": [
+			"PURPOSE AND LEARNING OBJECTIVES",
+			"TYPE OF INSTRUCTION",
+			"EXAM"
+		],
+		"course_tittle1_des": "The purpose of this core area is to develop students' competencies in analysing and applying relevant data-processing models.",
+		"course_tittle1_first_content_title": "Knowledge",
+		"course_tittle1_first_content_des": "Upon completion of the course, students should have acquired knowledge about the following:",
+		"course_tittle1_first_content_des_content": [
+			"● at least one widely-used modelling language for data modelling ",
+			"● distributed databases and their prevalence and use in web contexts",
+			"● describing problems concerning data exchange and the use of data formats in developing in web contexts. "
+		],
+		"course_tittle1_second_content_title": "Skills",
+		"course_tittle1_second_content_des_content": [
+			"● apply data models for development and maintenance in web contexts",
+			"● apply complex database queries",
+			"● apply transactions",
+			"● embed business logic in the database ",
+			"● use data formats for data integration."
+		],
+		"course_tittle2_des": "To ensure the optimal academic learning and personal development for each individual student, the Web Development Programme uses varied pedagogy with the main emphasis on dialogue, discussion and projects. ",
+		"course_tittle3_des": "The written project must contain anywhere between a minimum of 10 normal pages and a maximum of 30 normal pages. 1 student - min. 10 - max. 15 pages (1 page = 1-2 hours). The project must be submitted in the form of a PDF file. The project must be submitted in the form of a PDF file. "
+	},
+	{
+		"course_id": "2",
+		"course_img": "i-user-experience-icon.svg",
+		"course_name": "UX",
+		"course_tittle": [
+			"PURPOSE AND LEARNING OBJECTIVES",
+			"TYPE OF INSTRUCTION",
+			"EXAM"
+		],
+		"course_tittle1_des": "The purpose of this core area is to develop students' competencies in analysing and applying relevant data-processing models.",
+		"course_tittle1_first_content_title": "Knowledge",
+		"course_tittle1_first_content_des": "Upon completion of the course, students should have acquired knowledge about the following:",
+		"course_tittle1_first_content_des_content": [
+			"●  Practice, applied theory and methods for the design of user experiences following Goal-Directed Design ",
+			"● An ability to reflect on the web developer’s practice of designing user experiences, including the use of user survey methods ",
+			"● Information Architecture ",
+			"● Aesthetics and trends in Interaction Design ",
+			"● User interface construction via HTML5, CSS3, CSS precompilers and CSS frameworks ",
+			"● Testing of user interfaces"
+		],
+		"course_tittle1_second_content_title": "Skills",
+		"course_tittle1_second_content_des_content": [
+			"● Using methods and tools to design user experiences for target groups with the involvement of the users ",
+			"● Assessing practice-orientated and theoretical issues when designing user interfaces ",
+			"● Selecting and justifying relevant solution models ",
+			"● embed business logic in the database ",
+			"●  Communicating practice-orientated and professional issues about the design of user experiences and communicating key issues to partners and users ",
+			"● Prototyping, building and testing user interfaces"
+		],
+		"course_tittle2_des": "The teaching is organised so that it is varied, among other things, through class teaching, guest lectures when available, project work in groups and individual work – often using interdisciplinary issues and always with an application-orientated basis. The different learning formats will, in addition to the academic content, also develop the student's ability to work both independently and in collaboration with others.",
+		"course_tittle3_des": "A standard page contains 2,400 characters including spaces and footnotes. Cover page, table of contents, bibliography and appendices are not included in the number of pages submitted. Appendices are not subject to assessment. Each individual figure or diagram counts 800 characters. "
+	},
+	{
+		"course_id": "3",
+		"course_name": "WEB Development",
+		"course_img": "i-web-dev-icon.svg",
+		"course_tittle": [
+			"PURPOSE AND LEARNING OBJECTIVES",
+			"TYPE OF INSTRUCTION",
+			"EXAM"
+		],
+		"course_tittle1_des": "The purpose of this core area is to develop students' competencies in analysing and applying relevant data-processing models.",
+		"course_tittle1_first_content_title": "Knowledge",
+		"course_tittle1_first_content_des": "Upon completion of the course, students should have acquired knowledge about the following:",
+		"course_tittle1_first_content_des_content": [
+			"● fundamental protocols of the World Wide Web ",
+			"● advantages and limitations of client/server architecture ",
+			"● particular characteristics, weaknesses and strengths of different media ",
+			"● communication strategies."
+		],
+		"course_tittle1_second_content_title": "Skills",
+		"course_tittle1_second_content_des_content": [
+			"● program and implement a dynamic web application ",
+			"● master basic design principles ",
+			"● apply transactions",
+			"● apply theories on user friendliness and the skills to plan and conduct user tests ",
+			"● document program structures."
+		],
+		"course_tittle2_des": "The teaching in the Web Development Programme is a dynamic, interactive process, where the main emphasis is on student participation. The teaching is based on relevant business practice, and links theory and practice. Issues are included from the different types of companies in the IT sector. The student takes responsibility for his or her own learning, and the teachers constructively contribute to the learning process. ",
+		"course_tittle3_des": "A project report and a product must be submitted The project report, which constitutes the written part of the examination, must contain as a minimum:  Front page with title, given name and date of birth, class designation and date "
+	}
+]

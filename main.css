@@ -226,3 +226,11 @@ svg.icon-mr {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
+
+
+ /* course icons */
+#sidebar img.icon-mr {
+    margin-right: 10px;
+    width: 18px;
+}
