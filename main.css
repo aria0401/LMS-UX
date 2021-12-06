@@ -207,3 +207,22 @@ ul ul a {
 svg.icon-mr {
   margin-right: 10px;
 }
+
+.twin {
+  /* display: flex;
+  justify-content: space-around; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.plan-header {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+.day-row {
+  /* display: flex;
+  justify-content: space-around; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

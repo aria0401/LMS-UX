@@ -1,0 +1,274 @@
+[
+    {
+        "week" : 1,
+        "name" : "Week 1",
+        "plan" : [
+            {
+              "day" : {
+                "name" : "monday",
+                "date" : "3",
+                "course" : "database",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Upload here your Information Architecture",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises - KEA IT Degrees"
+              }
+            },
+            {
+               "day" : {
+                "name" : "tuesday",
+                "date" : "4",
+                "course" : "user-experience",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Upload your Sitemaps Exercise",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Lorem Ipsum"
+               }
+            },
+            {
+               "day" : {
+                "name" : "wednesday",
+                "date" : "5",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+               "day" : {
+                "name" : "thursday",
+                "date" : "6",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+                "day" : {
+                 "name" : "friday",
+                 "date" : "7",
+                 "course" : "web-development",
+                 "room" : "A45",
+                 "assignment_pdf" : "Sitemap_Exercise.pdf",
+                 "assignment_name" : "Databases Mandatory 1 Report",
+                 "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "KEA IT Degrees"
+                }
+             }
+         
+        
+        ]
+    },
+    {
+        "week" : 2,
+        "name" : "Week 2",
+        "plan" : [
+            {
+              "day" : {
+                "name" : "monday",
+                "date" : "10",
+                "course" : "database",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Information Architecture Sitemaps Exercise",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises"
+              }
+            },
+            {
+               "day" : {
+                "name" : "tuesday",
+                "date" : "11",
+                "course" : "user-experience",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Sitemaps Exercise",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "jQuery Exercises - KEA IT Degrees"
+               }
+            },
+            {
+               "day" : {
+                "name" : "wednesday",
+                "date" : "12",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+               "day" : {
+                "name" : "thursday",
+                "date" : "13",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+                "day" : {
+                 "name" : "friday",
+                 "date" : "14",
+                 "course" : "web-development",
+                 "room" : "A45",
+                 "assignment_pdf" : "Sitemap_Exercise.pdf",
+                 "assignment_name" : "Upload here your Information Architecture Sitemaps Exercise",
+                 "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises - KEA IT Degrees"
+                }
+             }
+         
+        
+        ]
+    },
+    {
+        "week" : 3,
+        "name" : "Week 3",
+        "plan" : [
+            {
+              "day" : {
+                "name" : "monday",
+                "date" : "17",
+                "course" : "database",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Upload here your Information Architecture Sitemaps Exercise",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises - KEA IT Degrees"
+              }
+            },
+            {
+               "day" : {
+                "name" : "tuesday",
+                "date" : "18",
+                "course" : "user-experience",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Upload here your Information Architecture Sitemaps Exercise",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises - KEA IT Degrees"
+               }
+            },
+            {
+               "day" : {
+                "name" : "wednesday",
+                "date" : "19",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+               "day" : {
+                "name" : "thursday",
+                "date" : "20",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+                "day" : {
+                 "name" : "friday",
+                 "date" : "21",
+                 "course" : "web-development",
+                 "room" : "A45",
+                 "assignment_pdf" : "Sitemap_Exercise.pdf",
+                 "assignment_name" : "Upload here your Information Architecture Sitemaps Exercise",
+                 "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises - KEA IT Degrees"
+                }
+             }
+         
+        
+        ]
+    },
+    {
+        "week" : 4,
+        "name" : "Week 4",
+        "plan" : [
+            {
+              "day" : {
+                "name" : "monday",
+                "date" : "24",
+                "course" : "database",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Upload here your Information Architecture Sitemaps Exercise",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises - KEA IT Degrees"
+              }
+            },
+            {
+               "day" : {
+                "name" : "tuesday",
+                "date" : "25",
+                "course" : "user-experience",
+                "room" : "A45",
+                "assignment_pdf" : "Sitemap_Exercise.pdf",
+                "assignment_name" : "Upload here your Sitemaps Exercise",
+                "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery KEA IT Degrees"
+               }
+            },
+            {
+               "day" : {
+                "name" : "wednesday",
+                "date" : "26",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+               "day" : {
+                "name" : "thursday",
+                "date" : "27",
+                "course" : "",
+                "room" : "",
+                "assignment_pdf" : "",
+                "assignment_name" : "",
+                "resource_pdf" : "",
+                "resource_name" : ""
+               }
+            },
+            {
+                "day" : {
+                 "name" : "friday",
+                 "date" : "28",
+                 "course" : "web-development",
+                 "room" : "A45",
+                 "assignment_pdf" : "Sitemap_Exercise.pdf",
+                 "assignment_name" : "Architecture Sitemaps Exercise",
+                 "resource_pdf" : "KEA_IT_Degrees.pdf",
+                "resource_name" : "Delivery jQuery Exercises"
+                }
+             }
+         
+        
+        ]
+    }
+]

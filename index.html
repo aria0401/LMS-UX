@@ -147,14 +147,40 @@
                 </button>
                 <main>
                     <h2>Home</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
+                    <div class="week-selector">
+                        <p class="myWeek"></p>
+                        <button class="previous btn">Previous</button>
+                        <button class="next btn">Next</button>
+                    </div>
                     <div class="line"></div>
         
-                    <h2>Lorem Ipsum Dolor</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+                  
+                    <div class="student-plan">
+                        <div class="twin plan-header">
+                            <div>Day</div>
+                            <div>Course Details</div>
+                            <div>Assignments</div>
+                            <div>Resources</div>
+                        </div>
+                        <div class="plan-content"></div>
+                    </div>
+
+                    <template>
+                        <div class="day-row">
+                            <div class="date-field">
+                                <p class="day"></p>
+                                <p class="date"></p>
+                            </div>
+                            <p class="room"></p>
+                            <p class="assignments"></p>
+                            <p class="resources"></p>
+                        </div>
+                    </template>
+                 
+
+                
+
                     <div class="line"></div>
         
                     <h2>Lorem Ipsum Dolor</h2>
@@ -177,6 +203,10 @@
     <!-- jQuery Custom Scroller CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        loadContent("student_plan", getStudentPlan);
+    </script>
 </body>
 
 </html>
