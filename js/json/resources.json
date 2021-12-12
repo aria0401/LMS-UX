@@ -1,48 +1,47 @@
 [
-    {
-        "course" : "database",
-        "img" : "f-database.png",
-        "pdf" : "DB_Mandatory_2_copy.pdf",
-        "name" : "RESOURCE Upload Databases Mandatory 2 Report",
-        "description" : "lorem ipsum",
-        "status" : true,
-        "endpoint" : "resources"
-    },
-    {
-        "course" : "user-experience",
-        "img" : "f-ux.png",
-        "pdf" : "Sitemap_Exercise_copy.pdf",
-        "name" : "RESOURCE Upload here your Information Architecture Sitemaps Exercise",
-        "description" : "lorem ipsum",
-        "status" : false,
-        "endpoint" : "resources"
-    },
-    {
-        "course" : "user-experience",
-        "img" : "f-ux.png",
-        "pdf" : "KEA_IT_Degrees_copy.pdf",
-        "name" : "RESOURCE Delivery jQuery Exercises - KEA IT Degrees",
-        "description" : "lorem ipsum",
-        "status" : true,
-        "endpoint" : "resources"
-    },
-    {
-        "course" : "database",
-        "img" : "f-database.png",
-        "pdf" : "DB_Mandatory_1_copy.pdf",
-        "name" : "RESOURCE Upload Databases Mandatory 1 Report",
-        "description" : "lorem ipsum",
-        "status" : false,
-        "endpoint" : "resources"
-    },
-    {
-        "course" : "web-development",
-        "img" : "f-web-dev.png",
-        "pdf" : "Traffic_light_with_js_copy.pdf",
-        "name" : "RESOURCE Traffic light with javascript",
-        "description" : "lorem ipsum",
-        "status" : true,
-        "endpoint" : "resources"
-    }
-
+	{
+		"course": "database",
+		"img": "f-database.png",
+		"pdf": "Pagila _ERD.pdf",
+		"name": "RESOURCE upload here your Pagila project",
+		"description": "Entities, Relationships, and Design",
+		"status": true,
+		"endpoint": "resources"
+	},
+	{
+		"course": "user-experience",
+		"img": "f-ux.png",
+		"pdf": "GDD_1_Research.pdf",
+		"name": "RESOURCE Upload here your GDD1 Research Report",
+		"description": "Gold Directed Design Research",
+		"status": false,
+		"endpoint": "resources"
+	},
+	{
+		"course": "user-experience",
+		"img": "f-ux.png",
+		"pdf": "GDD_3_Requirements_Definition.pdf",
+		"name": "RESOURCE Upload here your GDD3 Requirements Definition Report",
+		"description": "Gold Directed Design Requirements Definition",
+		"status": true,
+		"endpoint": "resources"
+	},
+	{
+		"course": "database",
+		"img": "f-database.png",
+		"pdf": "Northwind_ERD.pdf",
+		"name": "RESOURCE Upload here your Northwind ERD Report",
+		"description": "Northwind ERD",
+		"status": false,
+		"endpoint": "resources"
+	},
+	{
+		"course": "web-development",
+		"img": "f-web-dev.png",
+		"pdf": "PHP_Basic_Syntax.pdf",
+		"name": "RESOURCE PHP Basic Syntax on Web Development",
+		"description": "PHP Basic Syntax",
+		"status": true,
+		"endpoint": "resources"
+	}
 ]

@@ -234,3 +234,9 @@ svg.icon-mr {
     margin-right: 10px;
     width: 18px;
 }
+
+/* login */
+button.btn.btn-lg.btn-block {
+  background-color: var(--main-color);
+  color: var(--accent-color);
+}
