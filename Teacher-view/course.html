@@ -6,14 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-        <title>Learning Management System - Resources</title>
+        <title>Learning Management System - Course</title>
 
         <!-- Bootstrap CSS CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
             integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
         <!-- Our Custom CSS -->
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="css/main_list.css">
         <!-- Scrollbar Custom CSS -->
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
@@ -35,6 +34,8 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
+                        <a class="logo d-none-mobile" href="/"><h2>SchoolPortal</h2></a>
+                        <a class="logo d-none-desktop" href="/"><h2>SP</h2></a>
                         <ul class="nav  ml-auto">
 
                             <li class="nav-item">
@@ -70,7 +71,7 @@
                                     d="M12 11.7042C9.87837 11.7042 8.14453 10.0385 8.14453 8.00013C8.14453 5.96177 9.87837 4.29602 12 4.29602C14.1217 4.29602 15.8556 5.96177 15.8556 8.00013C15.8556 10.0385 14.1217 11.7042 12 11.7042ZM12 6.4878C11.1331 6.4878 10.4259 7.16725 10.4259 8.00013C10.4259 8.83301 11.1331 9.51246 12 9.51246C12.867 9.51246 13.5742 8.83301 13.5742 8.00013C13.5742 7.16725 12.867 6.4878 12 6.4878Z" />
                             </svg>
                             <!-- <img class="icon-mr" src="img/i-overview-icon.svg" alt="overview-icon"> -->
-                            Student Plan
+                            Teacher Plan
                         </a>
                     </li>
                     <li class="li-tab">
@@ -86,7 +87,7 @@
                             Calendar
                         </a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                             <svg class="icon-mr" width="23" height="21" viewBox="0 0 23 21" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -127,7 +128,7 @@
                             Assignments
                         </a>
                     </li>
-                    <li class="active li-tab">
+                    <li class="li-tab">
                         <a href="resources.html">
                             <svg class="icon-mr" width="20" height="19" viewBox="0 0 20 19" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -147,70 +148,7 @@
                 <button type="button" id="sidebarCollapse" class="btnCollapse btn btn-dark d-inline-block ml-auto mb-4">
                     <i class="fas fa-align-left"></i>
                 </button>
-                <main id="main-list">
-                    <h2 class="mb-4">Resources</h2>
-                    <div class="d-flex">
-                        <div class="filter-wrapper mx-5 d-none d-lg-block">
-                            <button class="filter btn main-btn" data-filter="all">All</button>
-                            <button class="filter btn main-btn" data-filter="database">Database</button>
-                            <button class="filter btn main-btn" data-filter="user-experience">User Experience</button>
-                            <button class="filter btn main-btn" data-filter="web-development">Web Development</button>
-                        </div>
-                        <div class="dropdown mx-2 d-lg-none">
-                            <button class="btn-layout btn filter main-btn" data-filter="all" type="button"
-                                id="dropdownMenuButtonFilter" data-toggle="dropdown" aria-haspopup="true"
-                                aria-expanded="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-                                    class="bi bi-sort-down icon-mr" viewBox="0 0 16 16">
-                                    <path
-                                        d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293V2.5zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z" />
-                                </svg>
-                                <span>Course name</span>
-                            </button>
-                            <div id="filter-list" class="dropdown-menu" aria-labelledby="dropdownMenuButtonFilter">
-                                <div class="dropdown-item filter" data-filter="all">All</div>
-                                <div class="dropdown-item filter" data-filter="database">Database</div>
-                                <div class="dropdown-item filter" data-filter="user-experience">User Experience</div>
-                                <div class="dropdown-item filter" data-filter="web-development">Web Development</div>
-                            </div>
-                        </div>
-                        <div class="dropdown">
-                            <button class="btn btn-layout main-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-grid-3x3-gap-fill icon-mr" viewBox="0 0 16 16">
-                                    <path
-                                        d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z">
-                                    </path>
-                                </svg>
-                                <span>List</span>
-                            </button>
-                            <div id="layout" class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <div class="dropdown-item" data-layout="list">List</div>
-                                <div class="dropdown-item" data-layout="card">Card</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="line"></div>
-
-                    <div id="articles" class="list-view">
-
-                    </div>
-                    <template id="templateFour">
-                        <article>
-                            <div class="img-wrapper">
-                                <img class="img" src="" alt="">
-                                <div>
-                                    <h5 class="name"></h5>
-                                    <p class="description mb-1"></p>
-                                    <div class="align-items-center d-flex">
-                                        <img class="status-icon mr-3" src="" alt="">
-                                        <p class="status m-0"></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </template>
+                <main>
                 </main>
             </div>
         </div>
@@ -230,13 +168,10 @@
         <!-- jQuery Custom Scroller CDN -->
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
         <script src="js/sidebar.js"></script>
-        <script src="js/main.js"></script>
-        <script>
-            loadContent("resources", displayMainList);
-        </script>
+
         <script src="/js/courses.js"></script>
+
     </body>
 
 </html>

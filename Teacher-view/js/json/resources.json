@@ -1,0 +1,47 @@
+[
+	{
+		"course": "database",
+		"img": "f-database.png",
+		"pdf": "RDBMS.pdf",
+		"name": "Relational Database Management System",
+		"description": "Entities, Relationships, and Design",
+		"status": true,
+		"endpoint": "resources"
+	},
+	{
+		"course": "user-experience",
+		"img": "f-ux.png",
+		"pdf": "GDD1.pdf",
+		"name": "Goal Directed Design 1 - Modeling",
+		"description": "Gold Directed Design Research",
+		"status": false,
+		"endpoint": "resources"
+	},
+	{
+		"course": "user-experience",
+		"img": "f-ux.png",
+		"pdf": "GDD3.pdf",
+		"name": "Goal Directed Design 3 - Interaction Frameworks",
+		"description": "Gold Directed Design Requirements Definition",
+		"status": true,
+		"endpoint": "resources"
+	},
+	{
+		"course": "database",
+		"img": "f-database.png",
+		"pdf": "mongodb.pdf",
+		"name": "Document-Oriented Database. MongoDB",
+		"description": "How to start with MongoDB",
+		"status": false,
+		"endpoint": "resources"
+	},
+	{
+		"course": "web-development",
+		"img": "f-web-dev.png",
+		"pdf": "Traffic_light_with_js.pdf",
+		"name": "Traffic Light with Javascript",
+		"description": "Javascript Basic Syntax",
+		"status": true,
+		"endpoint": "resources"
+	}
+]

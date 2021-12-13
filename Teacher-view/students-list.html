@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Learning Management System - Home</title>
+    <title>Learning Management System - Students List</title>
 
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
@@ -34,6 +34,8 @@
         <header>
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container-fluid">
+                    <a class="logo d-none-mobile" href="/"><h2>SchoolPortal</h2></a>
+                    <a class="logo d-none-desktop" href="/"><h2>SP</h2></a>
                     <ul class="nav  ml-auto">
 
                         <li class="nav-item">
@@ -59,7 +61,7 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <ul class="list-unstyled components">
-                <li class="active li-tab">
+                <li class="li-tab">
                     <a href="/">
                         <svg class="icon-mr" width="24" height="16" viewBox="0 0 24 16" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -69,7 +71,7 @@
                                 d="M12 11.7042C9.87837 11.7042 8.14453 10.0385 8.14453 8.00013C8.14453 5.96177 9.87837 4.29602 12 4.29602C14.1217 4.29602 15.8556 5.96177 15.8556 8.00013C15.8556 10.0385 14.1217 11.7042 12 11.7042ZM12 6.4878C11.1331 6.4878 10.4259 7.16725 10.4259 8.00013C10.4259 8.83301 11.1331 9.51246 12 9.51246C12.867 9.51246 13.5742 8.83301 13.5742 8.00013C13.5742 7.16725 12.867 6.4878 12 6.4878Z" />
                         </svg>
                         <!-- <img class="icon-mr" src="img/i-overview-icon.svg" alt="overview-icon"> -->
-                        Student Plan
+                        Teacher Plan
                     </a>
                 </li>
                 <li class="li-tab">
@@ -147,68 +149,36 @@
             <button type="button" id="sidebarCollapse" class="btnCollapse btn d-inline-block ml-auto mb-4">
                 <i class="fas fa-align-left"></i>
             </button>
-            <main class="container">
-                <h2>Home</h2>
+            <main class="container" id="main-students-list">
+                <h2>Students List</h2>
 
-                <div class="week-selector">
-                    <p class="myWeek"></p>
-                    <button class="previous btn main-btn">Previous</button>
-                    <button class="next btn main-btn">Next</button>
-                </div>
                 <div class="line"></div>
 
-
-                <div class="student-plan">
-                    <div class="twin plan-header p-3 mb-4">
-                        <div>Day</div>
-                        <div>Course Details</div>
-                        <div>Assignments</div>
-                        <div>Resources</div>
+                <div class="students-list-container">
+                    <div class="list-header twin">
+                        <h4 class=" d-none-mobile">Name</h4>
+                        <h4 class=" d-none-mobile">Status</h4>
                     </div>
-                    <div class="plan-content"></div>
-                </div>
+                    <div class="list-content"></div>
+                  
+                </div>            
 
-                <template id="templateThree">
-                    <div class="day-row p-3">
-                        <div class="date-field d-flex">
-                            <p class="day mb-0 pr-3"></p>
-                            <p class="date"></p>
+                <div class="line"></div>
+
+                <template id="students-list">
+                    <div class="twin align-items-lg-center mt-3 b-dashed p-3">
+                        <p id="name" class="mb-0">Ariadna Victorero</p>
+                        <div class="align-items-center d-flex status-wrapper mb-2">
+                            <img class="status-icon mr-3 w-15" src="img/i-not-sent.svg" alt="">
+                            <p class="status m-0">Pending</p>
                         </div>
-                        <div class="details-wrapper">
-                            <p class="course-title"></p>
-                            <p class="room"></p>
-                        </div>
-                        <div class="assignments-wrapper d-flex align-items-start">
-                            <img class="assignments-img mx-2" src="" alt="">
-                            <p class="assignments pr-md-5 pointer"></p>
-                        </div>
-                        <div class="resources-wrapper d-flex align-items-start">
-                            <img class="resources-img mx-2" src="" alt="">
-                            <p class="resources pr-md-5 pointer"></p>
-                        </div>
+                        <button class="btn w-75 mx-lg-auto mb-2 main-btn">Open</button>
+                        <button class="btn w-75 mx-lg-auto mb-3 outline-btn">Download</button>
                     </div>
+
                 </template>
 
 
-
-
-                <div class="line"></div>
-
-                <h2>Lorem Ipsum Dolor</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="line"></div>
-
-                <h3>Lorem Ipsum Dolor</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </main>
         </div>
     </div>
@@ -231,7 +201,7 @@
     <script src="js/sidebar.js"></script>
     <script src="js/main.js"></script>
     <script>
-        loadContent("student_plan", getStudentPlan);
+        loadContent("students_list", getStudentsList);
     </script>
     <script src="/js/courses.js"></script>
 </body>
