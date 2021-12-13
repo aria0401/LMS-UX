@@ -2,8 +2,8 @@
 	{
 		"course": "database",
 		"img": "f-database.png",
-		"pdf": "Pagila _ERD.pdf",
-		"name": "RESOURCE upload here your Pagila project",
+		"pdf": "RDBMS.pdf",
+		"name": "Relational Database Management System",
 		"description": "Entities, Relationships, and Design",
 		"status": true,
 		"endpoint": "resources"
@@ -11,8 +11,8 @@
 	{
 		"course": "user-experience",
 		"img": "f-ux.png",
-		"pdf": "GDD_1_Research.pdf",
-		"name": "RESOURCE Upload here your GDD1 Research Report",
+		"pdf": "GDD1.pdf",
+		"name": "Goal Directed Design 1 - Modeling",
 		"description": "Gold Directed Design Research",
 		"status": false,
 		"endpoint": "resources"
@@ -20,8 +20,8 @@
 	{
 		"course": "user-experience",
 		"img": "f-ux.png",
-		"pdf": "GDD_3_Requirements_Definition.pdf",
-		"name": "RESOURCE Upload here your GDD3 Requirements Definition Report",
+		"pdf": "GDD3.pdf",
+		"name": "Goal Directed Design 3 - Interaction Frameworks",
 		"description": "Gold Directed Design Requirements Definition",
 		"status": true,
 		"endpoint": "resources"
@@ -29,18 +29,18 @@
 	{
 		"course": "database",
 		"img": "f-database.png",
-		"pdf": "Northwind_ERD.pdf",
-		"name": "RESOURCE Upload here your Northwind ERD Report",
-		"description": "Northwind ERD",
+		"pdf": "mongodb.pdf",
+		"name": "Document-Oriented Database. MongoDB",
+		"description": "How to start with MongoDB",
 		"status": false,
 		"endpoint": "resources"
 	},
 	{
 		"course": "web-development",
 		"img": "f-web-dev.png",
-		"pdf": "PHP_Basic_Syntax.pdf",
-		"name": "RESOURCE PHP Basic Syntax on Web Development",
-		"description": "PHP Basic Syntax",
+		"pdf": "Traffic_light_with_js.pdf",
+		"name": "Traffic Light with Javascript",
+		"description": "Javascript Basic Syntax",
 		"status": true,
 		"endpoint": "resources"
 	}

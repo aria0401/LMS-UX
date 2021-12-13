@@ -129,7 +129,8 @@ function getSidebarList(dataArray) {
 function displaySidebarList(dataArray, contentWrapper) {
 
     contentWrapper.innerHTML = "";
-    const template = document.querySelector("template");
+    const template = document.querySelector("template#templateList");
+
 
     dataArray.forEach((elm) => {
         if (filter == "all" || filter == elm.course) {
@@ -154,17 +155,17 @@ function getUrlParams(urlParams) {
 };
 
 //DISPLAY SINGLE PDF
-function getPDF(pdfName, api) {
+function getPDF(pdfName, endpoint) {
 
     document.querySelector("iframe").src = `pdf/${pdfName}`;
-    let endpoint;
-    api == "assignments" ? endpoint = "js/json/assignments.json" : null;
-    api == "resources" ? endpoint = "js/json/resources.json" : null;
+    let api;
+    endpoint == "assignments" ? api = "js/json/assignments.json" : null;
+    endpoint == "resources" ? api = "js/json/resources.json" : null;
 
     getJson();
 
     async function getJson() {
-        const res = await fetch(endpoint);
+        const res = await fetch(api);
         const data = await res.json();
         const pdfTitle = data.filter(e => e.pdf == pdfName)[0].name;
         document.querySelector(".title").textContent = pdfTitle;
@@ -192,14 +193,30 @@ function getStudentPlan() {
     planWrapper.innerHTML = "";
     const template = document.querySelector("#templateThree");
 
+   
     weekPlan.forEach((elm)  =>{
-       
             const clone = template.cloneNode(true).content;
-            clone.querySelector("p.day").textContent = elm.day.name;
+            const day = elm.day.name.substring(0, 1).toUpperCase() + elm.day.name.substring(1).toLowerCase();
+            clone.querySelector("p.day").textContent = day;
             clone.querySelector("p.date").textContent = elm.day.date;
             clone.querySelector("p.room").textContent = elm.day.room;
+            clone.querySelector("p.course-title").textContent = elm.day.course_title;
             clone.querySelector("p.assignments").textContent = elm.day.assignment_name;
+            clone.querySelector("img.assignments-img").src = "img/" + elm.day.img;
             clone.querySelector("p.resources").textContent = elm.day.resource_name;
+            if(elm.day.resource_name){
+
+                clone.querySelector("img.resources-img").src = "img/" + elm.day.img;
+            }
+            clone.querySelector("p.assignments").addEventListener("click", () => {
+                location.href = `single-page.html?course=${elm.day.course}&name=${elm.day.assignment_pdf}&api=${elm.day.assignment_endpoint}`;
+
+            })
+
+            clone.querySelector("p.resources").addEventListener("click", () => {
+                location.href = `single-page.html?course=${elm.day.course}&name=${elm.day.resource_pdf}&api=${elm.day.resources_endpoint}`;
+
+            })
 
             planWrapper.appendChild(clone);
         
@@ -209,28 +226,38 @@ function getStudentPlan() {
 };
 
 //SELECT NEXT WEEK
-document.querySelector(".next").addEventListener("click", () => {
+const nextBtn = document.querySelector(".next");
 
-    currentWeek++;
-    document.querySelector("button.previous").disabled = false;
-    if (currentWeek == numberOfWeeks - 1) {
-        document.querySelector("button.next").disabled = true;
-    }
-    if (currentWeek < numberOfWeeks + 1) {
-      
-        getStudentPlan();
-    }
-});
+if(nextBtn){
+
+    nextBtn.addEventListener("click", () => {
+    
+        currentWeek++;
+        document.querySelector("button.previous").disabled = false;
+        if (currentWeek == numberOfWeeks - 1) {
+            document.querySelector("button.next").disabled = true;
+        }
+        if (currentWeek < numberOfWeeks + 1) {
+          
+            getStudentPlan();
+        }
+    });
+}
 
 //SELECT PREVIOUS WEEK
-document.querySelector(".previous").addEventListener("click", () => {
- 
-    document.querySelector("button.next").disabled = false;
-    if (currentWeek == 1) {
-        document.querySelector("button.previous").disabled = true;
-    }
-    if (currentWeek > 0) {
-        currentWeek--;
-        getStudentPlan();
-    }
-});
+const previousBtn = document.querySelector(".previous");
+
+if(previousBtn){
+
+    previousBtn.addEventListener("click", () => {
+     
+        document.querySelector("button.next").disabled = false;
+        if (currentWeek == 1) {
+            document.querySelector("button.previous").disabled = true;
+        }
+        if (currentWeek > 0) {
+            currentWeek--;
+            getStudentPlan();
+        }
+    });
+}

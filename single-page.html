@@ -148,30 +148,18 @@
                         <iframe class="mb-5 col-12 col-lg-8" src="" width="100%" height="500px">
                         </iframe>
                         <div id="articles" class="list-view col-12 col-lg-4">
-                            <!-- <div class="dropdown mx-2 ">
-                           <button class="btn-layout btn filter" data-filter="all" type="button" id="dropdownMenuButtonFilter" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-sort-down icon-mr" viewBox="0 0 16 16">
-                                   <path d="M3.5 2.5a.5.5 0 0 0-1 0v8.793l-1.146-1.147a.5.5 0 0 0-.708.708l2 1.999.007.007a.497.497 0 0 0 .7-.006l2-2a.5.5 0 0 0-.707-.708L3.5 11.293V2.5zm3.5 1a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zM7.5 6a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1h-3zm0 3a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
-                               </svg>
-                               <span>Course name</span> 
-                           </button>
-                           <div id="filter-list"  class="dropdown-menu" aria-labelledby="dropdownMenuButtonFilter">
-                             <div class="dropdown-item filter" data-filter="all">All</div>
-                             <div class="dropdown-item filter" data-filter="database">Database</div>
-                             <div class="dropdown-item filter" data-filter="user-experience">User Experience</div>
-                             <div class="dropdown-item filter" data-filter="web-development">Web Development</div>
-                           </div>
-                       </div> -->
-                            <h3>Assigments</h3>
+                            <h3 class="mb-3">Assigments</h3>
                             <div class="assignmentsList"></div>
                             <div class="line"></div>
-                            <h3>Resources</h3>
+                            <h3 class="mb-3">Resources</h3>
                             <div class="coursesList"></div>
                         </div>
                     </div>
-                    <template>
+                    <template id="templateList">
                         <article>
-                            <h5 class="name"></h5>
+                            <ul>
+                                <li class="name pointer"></li>
+                            </ul>
                         </article>
                     </template>
                 </main>
