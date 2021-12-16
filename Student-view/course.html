@@ -34,14 +34,22 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="logo d-none-mobile" href="/"><h2>SchoolPortal</h2></a>
-                        <a class="logo d-none-desktop" href="/"><h2>SP</h2></a>
+                        <a class="logo d-none-mobile" href="/">
+                            <h2>SchoolPortal</h2>
+                        </a>
+                        <a class="logo d-none-desktop" href="/">
+                            <h2>SP</h2>
+                        </a>
                         <ul class="nav  ml-auto">
 
-                            <li class="nav-item">
+                            <li class="nav-item mail-notification">
+
                                 <a class="nav-link" href="#">
-                                    <img src="img/i-message-icon.svg" alt="message-icon">
+                                    <span class="notify-badge">2</span>
+                                    <img src="img/i-message-icon.svg" alt="message-icon" data-toggle="tooltip"
+                                        title="You have two new messages!" class="BG-tooltip">
                                 </a>
+
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
@@ -50,7 +58,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="img/i-john-doe.svg" alt="user profile image">
+                                    <img src="img/Michaels-profile.png" alt="user profile image">
                                 </a>
                             </li>
                         </ul>
@@ -87,7 +95,7 @@
                             Calendar
                         </a>
                     </li>
-                    <li class="active">
+                    <li class="li-tab active">
                         <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                             <svg class="icon-mr" width="23" height="21" viewBox="0 0 23 21" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">

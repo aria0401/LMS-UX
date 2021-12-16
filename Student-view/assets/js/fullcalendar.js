@@ -6108,3 +6108,8 @@ function HorizontalPositionCache(getElement) {
 ;;
 
 })(jQuery);
+
+// toolip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});
