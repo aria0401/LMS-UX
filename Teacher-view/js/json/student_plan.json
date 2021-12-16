@@ -1,346 +1,346 @@
 [
-   {
-      "week": 1,
-      "name": "Week 1",
-      "plan": [
-         {
-            "day": {
-               "name": "monday",
-               "date": "3",
-               "course": "database",
-               "course_title" : "Database",
-               "room": "A45",
-               "assignment_pdf": "DB_Mandatory_2.pdf",
-               "assignment_name": "Upload Databases Mandatory 2 Report",
-               "resource_pdf": "RDBMS.pdf",
-               "resource_name": "Relational Database Management System",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-database-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "tuesday",
-               "date": "4",
-               "course": "user-experience",
-               "course_title" : "User Experience",
-               "room": "A45",
-               "assignment_pdf": "Sitemap_Exercise.pdf",
-               "assignment_name": "Upload your Sitemaps Exercise",
-               "resource_pdf": "GDD1.pdf",
-               "resource_name": "Gold Directed Design Research",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-user-experience-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "wednesday",
-               "date": "5",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "thursday",
-               "date": "6",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "friday",
-               "date": "7",
-               "course": "web-development",
-               "course_title" : "Web Development",
-               "room": "A45",
-               "assignment_pdf": "Traffic_light_with_js.pdf",
-               "assignment_name": "Traffic Light with Javascript",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-web-dev-json.svg"
-            }
-         }
-      ]
-   },
-   {
-      "week": 2,
-      "name": "Week 2",
-      "plan": [
-         {
-            "day": {
-               "name": "monday",
-               "date": "10",
-               "course": "database",
-               "course_title" : "Database",
-               "room": "A45",
-               "assignment_pdf": "DB_Mandatory_1.pdf",
-               "assignment_name": "Upload Databases Mandatory 1 Report",
-               "resource_pdf": "mongodb.pdf",
-               "resource_name": "Document-Oriented Database. MongoDB",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-database-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "tuesday",
-               "date": "11",
-               "course": "user-experience",
-               "course_title" : "User Experience",
-               "room": "A45",
-               "assignment_pdf": "KEA_IT_Degrees.pdf",
-               "assignment_name": "Delivery jQuery Exercises - KEA IT Degrees",
-               "resource_pdf": "GDD3.pdf",
-               "resource_name": "Goal Directed Design 3 - Interaction Frameworks",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-user-experience-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "wednesday",
-               "date": "12",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "thursday",
-               "date": "13",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "friday",
-               "date": "14",
-               "course": "web-development",
-               "course_title" : "Web Development",
-               "room": "A45",
-               "assignment_pdf": "PHP_functions.pdf",
-               "assignment_name": "PHP Functions",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-web-dev-json.svg"
-            }
-         }
-      ]
-   },
-   {
-      "week": 3,
-      "name": "Week 3",
-      "plan": [
-         {
-            "day": {
-               "name": "monday",
-               "date": "17",
-               "course": "database",
-               "course_title" : "Database",
-               "room": "A45",
-               "assignment_pdf": "DB_Mandatory_2.pdf",
-               "assignment_name": "Upload Databases Mandatory 2 Report",
-               "resource_pdf": "RDBMS.pdf",
-               "resource_name": "Relational Database Management System",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-database-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "tuesday",
-               "date": "18",
-               "course": "user-experience",
-               "course_title" : "User Experience",
-               "room": "A45",
-               "assignment_pdf": "Sitemap_Exercise.pdf",
-               "assignment_name": "Upload your Sitemaps Exercise",
-               "resource_pdf": "GDD1.pdf",
-               "resource_name": "Gold Directed Design Research",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-user-experience-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "wednesday",
-               "date": "19",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "thursday",
-               "date": "20",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "friday",
-               "date": "21",
-               "course": "web-development",
-               "course_title" : "Web Development",
-               "room": "A45",
-               "assignment_pdf": "Traffic_light_with_js.pdf",
-               "assignment_name": "Traffic Light with Javascript",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-web-dev-json.svg"
-            }
-         }
-      ]
-   },
-   {
-      "week": 4,
-      "name": "Week 4",
-      "plan": [
-         {
-            "day": {
-               "name": "monday",
-               "date": "24",
-               "course": "database",
-               "course_title" : "Database",
-               "room": "A45",
-               "assignment_pdf": "DB_Mandatory_1.pdf",
-               "assignment_name": "Upload Databases Mandatory 1 Report",
-               "resource_pdf": "mongodb.pdf",
-               "resource_name": "Document-Oriented Database. MongoDB",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-database-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "tuesday",
-               "date": "25",
-               "course": "user-experience",
-               "course_title" : "User Experience",
-               "room": "A45",
-               "assignment_pdf": "KEA_IT_Degrees.pdf",
-               "assignment_name": "Delivery jQuery Exercises - KEA IT Degrees",
-               "resource_pdf": "GDD3.pdf",
-               "resource_name": "Goal Directed Design 3 - Interaction Frameworks",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-user-experience-json.svg"
-            }
-         },
-         {
-            "day": {
-               "name": "wednesday",
-               "date": "26",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "thursday",
-               "date": "27",
-               "course": "",
-               "course_title" : "",
-               "room": "",
-               "assignment_pdf": "",
-               "assignment_name": "",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "",
-               "resources_endpoint": "",
-               "img": ""
-            }
-         },
-         {
-            "day": {
-               "name": "friday",
-               "date": "28",
-               "course": "web-development",
-               "course_title" : "Web Development",
-               "room": "A45",
-               "assignment_pdf": "PHP_functions.pdf",
-               "assignment_name": "PHP Functions",
-               "resource_pdf": "",
-               "resource_name": "",
-               "assignment_endpoint": "assignments",
-               "resources_endpoint": "resources",
-               "img": "i-web-dev-json.svg"
-            }
-         }
-      ]
-   }
+	{
+		"week": 1,
+		"name": "Week 1",
+		"plan": [
+			{
+				"day": {
+					"name": "monday",
+					"date": "3",
+					"course": "database",
+					"course_title": "Database",
+					"room": "A45",
+					"assignment_pdf": "DB_Mandatory_2.pdf",
+					"assignment_name": "Upload Databases Mandatory 2 Report",
+					"resource_pdf": "RDBMS.pdf",
+					"resource_name": "Relational Database Management System",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-database-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "tuesday",
+					"date": "4",
+					"course": "user-experience",
+					"course_title": "User Experience",
+					"room": "A45",
+					"assignment_pdf": "Sitemap_Exercise.pdf",
+					"assignment_name": "Upload your Sitemaps Exercise",
+					"resource_pdf": "GDD1.pdf",
+					"resource_name": "Gold Directed Design Research",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-user-experience-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "wednesday",
+					"date": "5",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "thursday",
+					"date": "6",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "friday",
+					"date": "7",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			}
+		]
+	},
+	{
+		"week": 2,
+		"name": "Week 2",
+		"plan": [
+			{
+				"day": {
+					"name": "monday",
+					"date": "10",
+					"course": "database",
+					"course_title": "Database",
+					"room": "A45",
+					"assignment_pdf": "DB_Mandatory_1.pdf",
+					"assignment_name": "Upload Databases Mandatory 1 Report",
+					"resource_pdf": "mongodb.pdf",
+					"resource_name": "Document-Oriented Database. MongoDB",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-database-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "tuesday",
+					"date": "11",
+					"course": "user-experience",
+					"course_title": "User Experience",
+					"room": "A45",
+					"assignment_pdf": "KEA_IT_Degrees.pdf",
+					"assignment_name": "Delivery jQuery Exercises - KEA IT Degrees",
+					"resource_pdf": "GDD3.pdf",
+					"resource_name": "Goal Directed Design 3 - Interaction Frameworks",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-user-experience-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "wednesday",
+					"date": "12",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "thursday",
+					"date": "13",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "friday",
+					"date": "14",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			}
+		]
+	},
+	{
+		"week": 3,
+		"name": "Week 3",
+		"plan": [
+			{
+				"day": {
+					"name": "monday",
+					"date": "17",
+					"course": "database",
+					"course_title": "Database",
+					"room": "A45",
+					"assignment_pdf": "DB_Mandatory_2.pdf",
+					"assignment_name": "Upload Databases Mandatory 2 Report",
+					"resource_pdf": "RDBMS.pdf",
+					"resource_name": "Relational Database Management System",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-database-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "tuesday",
+					"date": "18",
+					"course": "user-experience",
+					"course_title": "User Experience",
+					"room": "A45",
+					"assignment_pdf": "Sitemap_Exercise.pdf",
+					"assignment_name": "Upload your Sitemaps Exercise",
+					"resource_pdf": "GDD1.pdf",
+					"resource_name": "Gold Directed Design Research",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-user-experience-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "wednesday",
+					"date": "19",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "thursday",
+					"date": "20",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "friday",
+					"date": "21",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			}
+		]
+	},
+	{
+		"week": 4,
+		"name": "Week 4",
+		"plan": [
+			{
+				"day": {
+					"name": "monday",
+					"date": "24",
+					"course": "database",
+					"course_title": "Database",
+					"room": "A45",
+					"assignment_pdf": "DB_Mandatory_1.pdf",
+					"assignment_name": "Upload Databases Mandatory 1 Report",
+					"resource_pdf": "mongodb.pdf",
+					"resource_name": "Document-Oriented Database. MongoDB",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-database-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "tuesday",
+					"date": "25",
+					"course": "user-experience",
+					"course_title": "User Experience",
+					"room": "A45",
+					"assignment_pdf": "KEA_IT_Degrees.pdf",
+					"assignment_name": "Delivery jQuery Exercises - KEA IT Degrees",
+					"resource_pdf": "GDD3.pdf",
+					"resource_name": "Goal Directed Design 3 - Interaction Frameworks",
+					"assignment_endpoint": "assignments",
+					"resources_endpoint": "resources",
+					"img": "i-user-experience-json.svg"
+				}
+			},
+			{
+				"day": {
+					"name": "wednesday",
+					"date": "26",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "thursday",
+					"date": "27",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			},
+			{
+				"day": {
+					"name": "friday",
+					"date": "28",
+					"course": "",
+					"course_title": "",
+					"room": "",
+					"assignment_pdf": "",
+					"assignment_name": "",
+					"resource_pdf": "",
+					"resource_name": "",
+					"assignment_endpoint": "",
+					"resources_endpoint": "",
+					"img": ""
+				}
+			}
+		]
+	}
 ]

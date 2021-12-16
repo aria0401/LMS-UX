@@ -34,14 +34,5 @@
 		"description": "How to start with MongoDB",
 		"status": false,
 		"endpoint": "resources"
-	},
-	{
-		"course": "web-development",
-		"img": "f-web-dev.png",
-		"pdf": "Traffic_light_with_js.pdf",
-		"name": "Traffic Light with Javascript",
-		"description": "Javascript Basic Syntax",
-		"status": true,
-		"endpoint": "resources"
 	}
 ]

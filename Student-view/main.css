@@ -13,6 +13,7 @@
   --sidebar-box-shadow: 0px 4px 4px 0px #8c4f2b40;
   --btn-font-size: 0.9rem;
   --btn-height: 40px;
+  --notification: #FF0000;
 }
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
@@ -512,3 +513,33 @@ button.btn.btn-lg.btn-block {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
+
+/* red notification on mail icon */
+.mail-notification {
+    position:relative;
+    display:inline-block;
+}
+.notify-badge{
+    position: absolute;
+    right:7px;
+    top:0px;
+    background: var(--notification);
+    text-align: center;
+    border-radius: 80%;
+    color:var(--accent-color);
+    padding:3px;
+    font-size:11px;
+    width: 20px;
+    height: 20px;
+}
+
+/* tooloip for message notification */
+.tooltip-inner {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+}
+
+.bs-tooltip-bottom .arrow::before, .bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+  border-bottom-color: var(--accent-color);
+}
+

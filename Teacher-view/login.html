@@ -52,8 +52,15 @@
                                     <label class="form-label" for="password">Password</label>
                                     <div id="passwordError"></div>
                                 </div>
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Remember my password
+                                        and keep me signed in
+                                    </label>
+                                </div>
                                 <div id="formError"></div>
-                                <div class="pt-1 mb-4">
+                                <div class="pt-1 mb-4 my-2">
                                     <button class="btn  btn-lg btn-block" type="button" onclick="login()">Login</button>
                                 </div>
 
@@ -72,7 +79,6 @@
         <script>
             const password = document.querySelector('#password');
             const email = document.querySelector('#email');
-            const student = "student";
             const teacher = "teacher";
             function login() {
                 if (password.value == "" && email.value == "") {
@@ -83,12 +89,8 @@
                     document.querySelector("#formError").innerHTML = "";
                 }
 
-                if (email.value == student && password.value == student) {
+                if (email.value == teacher && password.value == teacher) {
                     window.location.href = 'index.html';
-
-                    document.querySelector('#formError').innerHTML = '';
-                } else if (email.value == teacher && password.value == teacher) {
-                    window.location.href = 'test.html';
                     document.querySelector('#formError').innerHTML = '';
                 }
                 else {

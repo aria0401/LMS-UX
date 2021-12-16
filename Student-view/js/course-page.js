@@ -69,3 +69,7 @@ getJson().then(data => {
 
 
 
+// toolip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});

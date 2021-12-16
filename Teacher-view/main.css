@@ -160,7 +160,9 @@ ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
 }
-
+#sidebar ul ul li.active > a, #sidebar ul ul li a[aria-expanded="true"] {
+    color: var(--main-color);
+}
 /* ---------------------------------------------------
   CONTENT STYLE
 ----------------------------------------------------- */

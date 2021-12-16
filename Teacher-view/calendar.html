@@ -39,8 +39,12 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="logo d-none-mobile" href="/"><h2>SchoolPortal</h2></a>
-                        <a class="logo d-none-desktop" href="/"><h2>SP</h2></a>
+                        <a class="logo d-none-mobile" href="/">
+                            <h2>SchoolPortal</h2>
+                        </a>
+                        <a class="logo d-none-desktop" href="/">
+                            <h2>SP</h2>
+                        </a>
                         <ul class="nav  ml-auto">
 
                             <li class="nav-item">
@@ -55,7 +59,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="img/i-john-doe.svg" alt="user profile image">
+                                    <img src="img/kluas-profile.png" alt="user profile image">
                                 </a>
                             </li>
                         </ul>
@@ -310,56 +314,56 @@
 
                     events: [
                         {
-                            title: 'Free Day',
+                            title: 'Administration meeting',
                             start: new Date(y, m, 1)
                         },
                         {
                             id: 999,
-                            title: 'Remember the PHP assignments',
+                            title: 'Database ERD',
                             start: new Date(y, m, d - 3, 16, 0),
                             allDay: false,
                             className: 'info'
                         },
                         {
                             id: 999,
-                            title: 'Remember the DB assignments',
+                            title: 'UX GDD2',
                             start: new Date(y, m, d + 4, 16, 0),
                             allDay: false,
                             className: 'info'
                         },
                         {
-                            title: 'Meeting',
+                            title: 'Meeting with Steve',
                             start: new Date(y, m, d + 2, 10, 30),
                             allDay: false,
                             className: 'important'
                         },
                         {
-                            title: 'UX Design Group Work',
+                            title: 'Meeting with Santiago',
                             start: new Date(y, m, d, 15, 0),
                             end: new Date(y, m, d, 17, 0),
                             allDay: false,
                             className: 'important',
-                            editable: false,
-                            droppable: false,
-                            draggable: false,
+                            editable: true,
+                            droppable: true,
+                            draggable: true,
                         },
 
                         {
-                            title: 'Birthday Party',
+                            title: 'Julie Birthday Party',
                             start: new Date(y, m, d + 1, 19, 0),
                             end: new Date(y, m, d + 1, 22, 30),
                             allDay: false,
                         },
                         {
-                            title: 'UX Class Artoru',
+                            title: 'Information Architecture Sitemaps Exercise',
                             start: new Date(y, m, d, 8, 0),
                             end: new Date(y, m, d, 14, 30),
                             allDay: false,
-                            url: href = "test.html",
+                            url: href = "single-page.html?course=user-experience&name=Sitemap_Exercise.pdf&api=assignments",
                             className: 'success',
-                            editable: false,
-                            droppable: false,
-                            draggable: false,
+                            editable: true,
+                            droppable: true,
+                            draggable: true,
                         }
                     ],
                 });
