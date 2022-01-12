@@ -1,7 +1,7 @@
 [
     {
         "course" : "database",
-        "img" : "f-database.png",
+        "img" : "f-database2.png",
         "pdf" : "DB_Mandatory_2.pdf",
         "name" : "Upload Databases Mandatory 2 Report",
         "deadline" : "24. november 2021",
@@ -10,7 +10,7 @@
     },
     {
         "course" : "user-experience",
-        "img" : "f-ux.png",
+        "img" : "f-ux7.png",
         "pdf" : "Sitemap_Exercise.pdf",
         "name" : "Upload here your Information Architecture Sitemaps Exercise",
         "deadline" : "11. november 2021",
@@ -19,7 +19,7 @@
     },
     {
         "course" : "user-experience",
-        "img" : "f-ux.png",
+        "img" : "f-ux7.png",
         "pdf" : "KEA_IT_Degrees.pdf",
         "name" : "Delivery jQuery Exercises - KEA IT Degrees",
         "deadline" : "31. october 2021",
@@ -28,7 +28,7 @@
     },
     {
         "course" : "database",
-        "img" : "f-database.png",
+        "img" : "f-database2.png",
         "pdf" : "DB_Mandatory_1.pdf",
         "name" : "Upload Databases Mandatory 1 Report",
         "deadline" : "28. october 2021",
@@ -37,7 +37,7 @@
     },
     {
         "course" : "web-development",
-        "img" : "f-web-dev.png",
+        "img" : "f-web-dev3.png",
         "pdf" : "Traffic_light_with_js.pdf",
         "name" : "Traffic light with javascript",
         "deadline" : "20. october 2021",
@@ -46,7 +46,7 @@
     },
     {
         "course" : "database",
-        "img" : "f-database.png",
+        "img" : "f-database2.png",
         "pdf" : "DB_Mandatory_1.pdf",
         "name" : "Upload Databases Mandatory 1 Report",
         "deadline" : "28. october 2021",
