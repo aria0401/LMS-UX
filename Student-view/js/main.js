@@ -261,3 +261,9 @@ if(previousBtn){
         }
     });
 }
+
+
+// toolip
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
+});

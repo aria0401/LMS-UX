@@ -52,6 +52,13 @@
                                     <label class="form-label" for="password">Password</label>
                                     <div id="passwordError"></div>
                                 </div>
+                                <div class="form-check mb-4">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault">
+                                        Remember my password
+                                        and keep me signed in
+                                    </label>
+                                </div>
                                 <div id="formError"></div>
                                 <div class="pt-1 mb-4">
                                     <button class="btn  btn-lg btn-block" type="button" onclick="login()">Login</button>
@@ -73,7 +80,6 @@
             const password = document.querySelector('#password');
             const email = document.querySelector('#email');
             const student = "student";
-            const teacher = "teacher";
             function login() {
                 if (password.value == "" && email.value == "") {
 
@@ -87,11 +93,7 @@
                     window.location.href = 'index.html';
 
                     document.querySelector('#formError').innerHTML = '';
-                } else if (email.value == teacher && password.value == teacher) {
-                    window.location.href = 'test.html';
-                    document.querySelector('#formError').innerHTML = '';
-                }
-                else {
+                } else {
                     document.querySelector('#formError').innerHTML = "<div class='alert alert-danger' role='alert'>Incorrect username or password</div>";
                     return false;
                 }

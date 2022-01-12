@@ -34,14 +34,21 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="logo d-none-mobile" href="/"><h2>SchoolPortal</h2></a>
-                        <a class="logo d-none-desktop" href="/"><h2>SP</h2></a>
+                        <a class="logo d-none-mobile" href="/">
+                            <h2>SchoolPortal</h2>
+                        </a>
+                        <a class="logo d-none-desktop" href="/">
+                            <h2>SP</h2>
+                        </a>
                         <ul class="nav  ml-auto">
+                            <li class="nav-item mail-notification">
 
-                            <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="img/i-message-icon.svg" alt="message-icon">
+                                    <span class="notify-badge">2</span>
+                                    <img src="img/i-message-icon.svg" alt="message-icon" data-toggle="tooltip"
+                                        title="You have two new messages!" class="BG-tooltip">
                                 </a>
+
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
@@ -50,7 +57,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="img/i-john-doe.svg" alt="user profile image">
+                                    <img src="img/Michaels-profile.png" alt="user profile image">
                                 </a>
                             </li>
                         </ul>
@@ -169,8 +176,8 @@
                             </div>
                         </div>
                         <div class="dropdown">
-                            <button class="btn btn-layout main-btn" type="button" id="dropdownMenuButton" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <button class="btn btn-layout main-btn" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-grid-3x3-gap-fill icon-mr" viewBox="0 0 16 16">
                                     <path

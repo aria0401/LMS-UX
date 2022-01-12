@@ -39,14 +39,22 @@
             <header>
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
-                        <a class="logo d-none-mobile" href="/"><h2>SchoolPortal</h2></a>
-                        <a class="logo d-none-desktop" href="/"><h2>SP</h2></a>
+                        <a class="logo d-none-mobile" href="/">
+                            <h2>SchoolPortal</h2>
+                        </a>
+                        <a class="logo d-none-desktop" href="/">
+                            <h2>SP</h2>
+                        </a>
                         <ul class="nav  ml-auto">
 
-                            <li class="nav-item">
+                            <li class="nav-item mail-notification">
+
                                 <a class="nav-link" href="#">
-                                    <img src="img/i-message-icon.svg" alt="message-icon">
+                                    <span class="notify-badge">2</span>
+                                    <img src="img/i-message-icon.svg" alt="message-icon" data-toggle="tooltip"
+                                        title="You have two new messages!" class="BG-tooltip">
                                 </a>
+
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
@@ -55,7 +63,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="img/i-john-doe.svg" alt="user profile image">
+                                    <img src="img/Michaels-profile.png" alt="user profile image">
                                 </a>
                             </li>
                         </ul>
@@ -355,7 +363,7 @@
                             start: new Date(y, m, d, 8, 0),
                             end: new Date(y, m, d, 14, 30),
                             allDay: false,
-                            url: href = "test.html",
+                            url: href = "single-page.html?course=user-experience&name=Sitemap_Exercise.pdf&api=assignments",
                             className: 'success',
                             editable: false,
                             droppable: false,
